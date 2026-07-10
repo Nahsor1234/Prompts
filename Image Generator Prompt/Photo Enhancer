@@ -1,0 +1,11 @@
+Analyze the uploaded image and enhance its visual quality while maintaining maximum fidelity to the original.
+
+Correct only the quality-related defects present in the image. Reduce motion blur, out-of-focus softness, noise, grain, pixelation, compression artifacts, haze, and low-resolution degradation where applicable. Recover natural clarity, improve edge definition, restore fine textures, and increase the effective resolution to produce a clean, sharp, high-quality image.
+
+Preserve the subject’s exact identity, facial structure, facial proportions, expression, age, skin tone, hairstyle, body proportions, pose, clothing, and all recognizable characteristics. Preserve the original objects, background, composition, framing, perspective, colors, lighting direction, visual style, and aspect ratio.
+
+Apply natural exposure correction, white balance, contrast, dynamic range, and color correction only where necessary. Keep realistic skin texture, hair strands, fabric texture, object surfaces, and environmental details. Use controlled, realistic sharpening rather than harsh edge enhancement.
+
+Do not redesign, beautify, stylize, reconstruct, or reinterpret the image. Do not add or remove objects, change facial features, alter the background, modify the composition, introduce artificial textures, oversaturate colors, apply excessive HDR, over-sharpen edges, or create a plastic or overly smooth appearance. Do not hallucinate unsupported details or invent information that cannot reasonably be recovered from the original image.
+
+The final result should look like the same original photograph captured more clearly with a high-quality modern camera—not like an AI-generated or heavily edited image.
