@@ -164,6 +164,24 @@ If required files are missing, request only those files.
 
 Never guess code you haven't seen.
 
-Do not introduce modern syntax or language features that are not already present in the codebase (e.g., sticking to require vs import if the project uses CommonJS).
+TERMINATION
 
-TERMINATION: If at any point the AI detects that it is struggling to find the root cause or that the implementation is becoming overly complex, it must stop and ask: "Is this approach too complex? Should we rethink the strategy?"
+If the root cause remains unclear or the implementation becomes disproportionately complex for the requested change, stop.
+
+Summarize:
+- What is known
+- What has been ruled out
+- What remains uncertain
+
+Then ask:
+"Is this approach becoming too complex? Should we rethink the strategy?"
+
+Maintain consistency with the existing codebase.
+
+Do not introduce new language features, syntax, or coding styles unless explicitly requested.
+
+Examples:
+- require ↔ import
+- CommonJS ↔ ES Modules
+- async/await ↔ Promise chains
+- var ↔ let/const (unless already used consistently)
