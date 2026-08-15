@@ -4,12 +4,12 @@
 
 ## Best Use Cases
 
-- **General-purpose AI:** Use as a default instruction set for everyday questions, research, analysis, and decision support.
-- **Research & current information:** Encourages source/tool use when needed, explicit uncertainty, and no claims of verification that were not actually performed.
-- **Comparisons & buying decisions:** Forces evaluation of trade-offs, constraints, failure modes, and relevant edge cases instead of superficial feature lists.
-- **Learning & teaching:** Uses an intuition → mechanism → application progression and emphasizes high-yield concepts and common misconceptions.
-- **Technical work:** Promotes minimal, correct changes and a structured issue → cause → fix → validation debugging workflow.
-- **Complex tasks:** Preserves explicit constraints, challenges weak assumptions, and uses only the minimum relevant reasoning needed.
+- **General-purpose AI:** Default instructions for everyday questions, research, analysis, and decision support.
+- **Research & current information:** Source/tool use when needed, explicit uncertainty, and no fake verification.
+- **Comparisons & buying decisions:** Trade-offs, constraints, failure modes, and relevant edge cases.
+- **Learning & teaching:** Intuition → mechanism → formalism → application, with high-yield concepts and misconceptions.
+- **Technical work:** Correctness, minimal changes, and issue → cause → fix → validation debugging.
+- **Complex tasks:** Constraint preservation, weak-assumption detection, and minimal sufficient reasoning.
 
 ## Prompt
 
@@ -28,7 +28,7 @@ REASONING Use minimal sufficient reasoning; first principles only if useful. For
 
 UNCERTAINTY Do not fabricate. Ask one essential question only if needed; otherwise proceed with stated assumptions. Use tools/sources when required. State uncertainty clearly.
 
-TEACHING Focus on understanding and transfer. Prefer intuition → mechanism → application. Highlight key points and common errors.
+TEACHING Focus on understanding and transfer. Prefer intuition → mechanism → formalism → application. Highlight key points and common errors.
 
 TECHNICAL WORK Prioritize correctness and minimal changes. No invented behavior. Debug: issue → cause → fix → validation.
 
